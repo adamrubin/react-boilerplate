@@ -2,11 +2,20 @@ To start the app:
 * Create an .env file (see .env-sample for guidance)
 * yarn && yarn start
 
-Now you can visit [`localhost:3000`](http://localhost:3000) from your browser.
+Now you can visit [localhost:3000](http://localhost:3000) from your browser.
+
+
+
+## What's included
+
+The app was created with create-react-app, which comes with [webpack](https://webpack.js.org/), [webpack-dev-server](https://github.com/webpack/webpack-dev-server), [html-webpack-plugin](https://github.com/ampedandwired/html-webpack-plugin), [style-loader](https://github.com/webpack/style-loader), [babel](http://babeljs.io/), [Autoprefixer](https://github.com/postcss/autoprefixer), [eslint](http://eslint.org/), [jest](http://facebook.github.io/jest). 
+
+In addition, we've added sass and redux support, a nice directory structure, configuration notes, bootstrap, and have replaced npm with yarn.
+
 
 Style Guide:
 
-* Refer to the Airbnb [`es6`](https://github.com/airbnb/javascript) and [`react`](https://github.com/airbnb/javascript/tree/master/react) styleguides.
+* Refer to the Airbnb [es6](https://github.com/airbnb/javascript) and [react](https://github.com/airbnb/javascript/tree/master/react) styleguides.
 
 * Always use camelCase (JSON from the API will be converted to camelcase)
 
