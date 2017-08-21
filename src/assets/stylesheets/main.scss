@@ -1,0 +1,41 @@
+body { 
+  background-color: #888;
+}
+
+#app-container {
+  #header {
+    height: 100px;
+    background-color: #222;
+
+    .note {
+      color: #cdc;
+    }
+  }
+
+  #main {
+    height: calc(100vh - 200px);
+    background-color: #b1b1b1;
+
+    .row-style {
+      background-color: #fff;
+      height: 100px;
+    }
+
+    .col-style {
+      background-color: orange;
+    }
+
+    .is {
+      border: 1px solid black;
+      background-color: #b3b3b3;
+    }
+  
+    .very {
+      background-color: teal;
+    }
+
+    .fun {
+      border: 1px solid black;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+## create /config/foo.js
+
+export default {
+  trump: 'bad',
+  pizza: 'good'
+};
+
+# then, in another file which needs access to config data
+
+import foo from '../config/foo';
+
+const {
+  trump,
+  pizza
+} = spotifyConfig;
+
+
